@@ -381,6 +381,7 @@ def update_parameters(parameters, grads, learning_rate):
         parameters["b" + str(l+1)] = parameters["b" + str(l+1)] - learning_rate * grads["db" + str(l+1)]
         
     return parameters
+    #Chnage 99
 
 def predict(X, y, parameters):
     """
@@ -438,3 +439,5 @@ def print_mislabeled_images(classes, X, y, p):
 #Change 1 and save
 #Change 2 and save and stage
 #Change 3 and save and stage
+#Change 4 unstaged
+#Change 5 Stage
