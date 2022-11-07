@@ -438,6 +438,7 @@ def print_mislabeled_images(classes, X, y, p):
 
 #Change 1 and save
 #Change 2 and save and stage
-#Change 3 and save and stage
 #Change 4 unstaged
 #Change 5 Stage
+
+Change 6 instaged
